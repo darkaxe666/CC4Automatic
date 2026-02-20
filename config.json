@@ -1,0 +1,18 @@
+{
+  "gemini_api_key": "",
+  "proxy": {
+    "enabled": true,
+    "ip": "",
+    "port": "",
+    "user": "",
+    "pass": ""
+  },
+  "model": "gemini-flash-latest",
+  "limits": {
+    "step_limit": 30,
+    "max_iters": 12,
+    "min_delta": 1.0,
+    "max_keys_per_step": 3
+  },
+  "target": "face"
+}
